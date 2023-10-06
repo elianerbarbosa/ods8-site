@@ -105,7 +105,7 @@ body, h1{
               }
               /*os dois cards  preto--------------------------------------*/
               .browser{
-                display: flex;
+    cursor: pointer;
                 gap: 16px;
                 padding: 36px;
               }
@@ -115,7 +115,7 @@ body, h1{
                 padding: 16px;
                 border-radius: 6px;
                 box-shadow: 0 5px 15px 5px blue;
-                display: flex;
+    cursor: pointer;
                 flex-direction: column;
             
               }
