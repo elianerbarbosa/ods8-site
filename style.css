@@ -16,21 +16,24 @@ padding: 0;
 /*celular*/
 @media screen and (max-width: 600px){
 }
-bady .header  {
+bady .header body, h1 {
   max-width: 600px;
   }
-.browser  .browser-inf{
+.browser  .browser-inf    .browser-inf__title{
   max-width: 600px;
 }
  .header__nav ul  .header_logo {
    max-width: 600px;
  }
-.header__nav a   .header__nav li{
+.header__nav a   .header__nav li  a .header__nav a{
   max-width: 600px;
 }
- .header__nav a:hover{
+ .header__nav a:hover   a.header__nav--active{
  max-width: 600px; 
 }
+ .browser-inf p  .browser-inf__stitches  .browser-inf__text{
+    max-width: 600px;
+ }
 footer p {
 display: none;
   max-width: 600px;
