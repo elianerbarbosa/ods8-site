@@ -22,11 +22,18 @@ bady .header  {
 .browser  .browser-inf{
   max-width: 600px;
 }
- .header__nav ul{
+ .header__nav ul  .header_logo {
    max-width: 600px;
  }
+.header__nav a   .header__nav li{
+  max-width: 600px;
+}
+ .header__nav a:hover{
+ max-width: 600px; 
+}
 footer p {
 display: none;
+  max-width: 600px;
      }
 }
 
@@ -83,7 +90,7 @@ body, h1{
         border-radius: 2px;
        }
     
-              a.header__nav a{
+              a .header__nav a{
                 background-color: rgb(0, 166, 255);
                 text-decoration: none;
                 padding: 5px;
