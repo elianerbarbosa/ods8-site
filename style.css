@@ -15,10 +15,8 @@ padding: 0;
 }
 /*celular*/
 @media screen and (max-width: 600px){
+}
 nav li {
-float: none;
-text-align: center;
-width: 100%;
   }
 footer p {
 display: none;
@@ -35,6 +33,7 @@ list-style-position: inline;
 }
 
 body {
+   float: none;
     background-color: rgb(0, 166, 255);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
