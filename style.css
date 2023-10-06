@@ -184,9 +184,29 @@ body, h1{
 .last-articles__thumbs img{
     display: block;
 }
+@keyframes blink {
+    from {
+        opacity: 1;
+   }
+    to {
+opacity: 0;
+    }
+}
+
+@keyframes inicialize {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+opacity: 1;
+transform: translate3d(0, 0, 0);
+    }
+}
+
 
 .menu {
-    padding: 46px;
+    padding: 16px;
     margin: 0 2%;
     font-weight: 600;
     gap: 16px;
