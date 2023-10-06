@@ -9,7 +9,6 @@
 /*tablets*/
 @media screen and (max-width: 768px){
 section,aside {
-width: 100%;
 padding: 0;
   }
 }
@@ -53,7 +52,6 @@ list-style-position: inline;
 }
 
 body {
-   float: none;
     background-color: rgb(0, 166, 255);
     color: white;
 
