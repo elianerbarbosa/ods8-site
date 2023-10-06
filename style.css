@@ -16,8 +16,12 @@ padding: 0;
 /*celular*/
 @media screen and (max-width: 600px){
 }
-nav li {
+bady .header  {
+  max-width: 600px;
   }
+.browser  .browser-inf{
+  max-width: 600px
+}
 footer p {
 display: none;
      }
@@ -185,7 +189,6 @@ body, h1{
         color:white;
         transform: uppercase;
         font-weight: 400;
-
        }
 .last-articles__thumbs{
     display:grid;
@@ -193,26 +196,6 @@ body, h1{
 .last-articles__thumbs img{
     display: block;
 }
-@keyframes blink {
-    from {
-        opacity: 1;
-   }
-    to {
-opacity: 0;
-    }
-}
-
-@keyframes inicialize {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    }
-    to {
-opacity: 1;
-transform: translate3d(0, 0, 0);
-    }
-}
-
 
 .menu {
     padding: 16px;
