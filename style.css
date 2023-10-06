@@ -22,6 +22,9 @@ bady .header  {
 .browser  .browser-inf{
   max-width: 600px
 }
+ .header__nav ul{
+   
+ }
 footer p {
 display: none;
      }
