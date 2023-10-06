@@ -20,10 +20,10 @@ bady .header  {
   max-width: 600px;
   }
 .browser  .browser-inf{
-  max-width: 600px
+  max-width: 600px;
 }
  .header__nav ul{
-   
+   max-width: 600px;
  }
 footer p {
 display: none;
