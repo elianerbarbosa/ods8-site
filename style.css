@@ -165,25 +165,6 @@ body, h1{
                     background-color: transparent;
                     color: blue;
                   }
-    body{
-       }           
-       .last-articles__title{
-        background-color: rgb(0, 166, 255);
-        padding: 5px;
-       }
-       .last-articles h2{
-        font-size: 24px;
-        color:white;
-        transform: uppercase;
-        font-weight: 400;
-
-       }
-.last-articles__thumbs{
-    display:grid;
-}
-.last-articles__thumbs img{
-    display: block;
-}
   
 .menu {
     padding: 46px;
