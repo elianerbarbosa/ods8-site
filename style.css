@@ -55,6 +55,7 @@ body {
     color: white;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify center;
+  position: relative;
 }
 body, h1{
     max-width: 600px;
@@ -77,6 +78,7 @@ align-items: last baseline;
           width: 10px;
          align-items: center;
          text-align:center justify;
+         position: relative;
        }
     
        .header__logo {
@@ -143,7 +145,7 @@ align-items: last baseline;
    padding: 36px;
 align-items: center justify;
 max-width: 600px;
-
+ position:relative ;
 }
                      .browser-inf__title{
                           margin-top:  0;
