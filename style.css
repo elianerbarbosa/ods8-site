@@ -129,17 +129,21 @@ body, h1{
               }
               /*os dois cards  preto--------------------------------------*/
               .browser{
-    display: flex;
+               display: flex;
                 gap: 16px;
                 padding: 36px;
-              }
+              transition: 5s ease;
+                cursor: pointer;
+    transform: scale(2.10);
+}
+
               .browser-inf{
                 flex: 1;
                 background-color: black;
                 padding: 16px;
                 border-radius: 6px;
                 box-shadow: 0 5px 15px 5px blue;
-    display: flex;
+                 display: flex;
                 flex-direction: column;
             
               }
