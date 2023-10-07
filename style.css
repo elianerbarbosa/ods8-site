@@ -130,15 +130,24 @@ body, h1{
     
               }
               /*os dois cards  preto--------------------------------------*/
-              .browser   .browser-inf__title{
+              .browser{
     display: flex;
-    gap: 8px;
-   padding: 18px;
-    border-bottom: 2px solid blue;
-    margin: 0 2%;
+    gap: 16px;
+   padding: 36px;
 align-items: center;
+max-width: 600px;
 
 }
+                     .browser-inf__title{
+                        text-transform: uppercase;
+                        border-bottom: 2px solid blue;
+                        margin-top:  0;
+                        padding-bottom: 10px;
+                        letter-spacing: 2px;
+                       align-items: center;
+                      max-width: 600px;
+                     }
+
 
               .browser-inf{
                 flex: 1;
