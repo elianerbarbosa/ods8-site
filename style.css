@@ -125,11 +125,12 @@ body, h1{
                 color: white;
     
               }
-                      .main.title{
+                      .main.title h4{
                       max-width: 600px;
                         margin-left: 280px;
                        margin-right: 280px;
                       text-align: center;
+                        align-items: center;
                        
                       }
               /*os dois cards  preto--------------------------------------*/
