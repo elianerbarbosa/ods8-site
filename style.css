@@ -67,13 +67,14 @@ body, h1{
 /* tracinho no menu */ /* modificar o red para transparente */
 /* colocar o tracinho para aparecer somente qndo passar mouse */      
        .header {
-        display: flex;
         background-color: blue;
         padding: 5px;
         justify-content: space-between;
-          width: 95%;
-    margin-left: 46px;
-    margin-right: 46px;
+          width: 30px;
+         align-items: last baseline;
+          transform: uppercase;
+
+
   
        }
     
