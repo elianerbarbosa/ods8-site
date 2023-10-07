@@ -71,6 +71,10 @@ body, h1{
         background-color: blue;
         padding: 5px;
         justify-content: space-between;
+          width: 95%;
+    margin-left: 46px;
+    margin-right: 46px;
+  
        }
     
        .header__logo {
@@ -133,6 +137,9 @@ body, h1{
                 gap: 16px;
                 padding: 36px;
               transition: 5s ease;
+                 flex-shrink: 0;
+    object-fit: cover; 
+    cursor: pointer;
                 cursor: pointer;
     transform: scale(2.10);
 }
