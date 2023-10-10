@@ -161,7 +161,7 @@ align-items: last baseline;
                       }
               /*os dois cards  preto--------------------------------------*/
               .browser{
-display:inline;
+display: flex;
     gap: 16px;
    padding: 36px;
 align-items: center justify;
@@ -171,14 +171,10 @@ max-width: 600px;
                      .browser-inf__title{
                           margin-top:  0;
                         padding-bottom: 10px;
-                       margin-left: 275px;
-                       margin-right: 275px;
-                      text-align: center;
                         text-transform: uppercase;
                         border-bottom: 2px solid blue;
                         letter-spacing: 2px;
                        align-items: center;
-                      max-width: 600px;
                        position:relative ;
                          display: flex;
 
