@@ -460,8 +460,14 @@ label {
 .sobretext .titlesobre {
     padding-top: 0;
     text-align: justify;
-    box-direction: normal;  
+    box-direction: normal; 
 }
+  .sobretext p:focus  titlesobre p: focus{
+   color: black;
+    font-weight: bold;
+    text-align: black;
+}
+
 .redes-sociais {
 
     align-items: center;
