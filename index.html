@@ -1,269 +1,235 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <link rel="shortcut icon" href="eli.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="author" content="Eliane Ramos">
-    <meta name="description" content="Promover o crescimento econômico inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todos">
-    <meta name="keywords" content="ods 8, emprego, sustentável, economia">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Links corrigidos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-popup-overlay/2.1.5/jquery.popupoverlay.min.js" integrity="sha512-gu0czvpcfFnRy+Dxo9M585nVnO8YbTnoFRWuSnvJVdBlaeaucDNAZUjP+IfscyQEIlUOGQLtzpVFpl32fkuKig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author"      content="Eliane Ramos Barbosa" />
+  <meta name="description" content="Promover o crescimento econômico inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todos — ODS 8" />
+  <meta name="keywords"    content="ods 8, emprego, sustentável, economia, trabalho decente" />
 
-    <link rel="alternate" hreflang="en-gb" href="http://en-gb.site.com">
-    <link rel="alternate" hreflang="pt-br" href="http://pt-br.site.com">
+  <link rel="shortcut icon" href="eli.ico" type="image/x-icon" />
 
-    <title>Trabalho decente e crescimento econômico</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="traducao.css">
-    
-    <style>
-    @media screen and (max-width: 768px) {
-        /* Estilos para tablet */
-    }
-    
-    @media screen and (max-width: 600px) {
-        .browser, .browser-inf, .browser-inf__title, .browser-inf__text {
-            max-width: 100%;
-        }
-        .main.title {
-            max-width: 100%;
-            margin: 0 20px;
-        }
-        .header__logo {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-    }
-    </style>
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (sem integrity para evitar bloqueio) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>ODS 8 — Trabalho Decente e Crescimento Econômico</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__logo">ODS 8</div>
-        <div class="imagem">
-            <img src="./img/desigualc.png" alt="Desigualdade" height="150" width="150">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header__logo">ODS 8</div>
+
+    <div class="imagem">
+      <img src="./img/desigualc.png" alt="Desigualdade econômica" height="150" width="150" loading="eager" />
+    </div>
+
+    <!-- Botão hamburger (mobile) -->
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
+
+    <nav class="header__nav" id="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="diminuicaodapobreza.html">Visite</a></li>
+        <li><a href="diminuicaodapobreza.html" class="header__nav--active">Descubra</a></li>
+        <li><a href="diminuicaodapobreza.html">Explore</a></li>
+        <li><a href="diminuicaodapobreza.html">Acontece</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+    <h1 class="main-title">Crescimento econômico através do trabalho sustentável</h1>
+
+    <!-- Cards topo -->
+    <section class="browser" aria-label="Emprego e Crescimento">
+      <div class="browser-inf">
+        <h2 class="browser-inf__title">Emprego</h2>
+        <p><span class="browser-inf__text">Trabalho</span> decente</p>
+        <ul class="browser-inf__stitches">
+          <li>Igualdade de tratamento entre homens e mulheres</li>
+          <li>Combate a todas as formas de discriminação</li>
+        </ul>
+        <a href="diminuicaodapobreza.html" class="browser-inf__cta">Saiba mais</a>
+      </div>
+
+      <div class="browser-inf">
+        <h2 class="browser-inf__title">Crescimento</h2>
+        <p><span class="browser-inf__text">Crescimento</span> econômico</p>
+        <ul class="browser-inf__stitches">
+          <li>Melhores condições para estabilidade e sustentabilidade do país</li>
+          <li>Políticas que incentivem o empreendedorismo e a criação de empresas de forma sustentável</li>
+        </ul>
+        <a href="diminuicaodapobreza.html" class="browser-inf__cta">Saiba mais</a>
+      </div>
+    </section>
+
+    <!-- Conteúdo principal -->
+    <div class="menu-container">
+
+      <section class="menu-section">
+        <div class="menu-item">
+          <img src="./img/ods6.png" alt="Ícone ODS 6" loading="lazy" />
+          <div class="menu-text">
+            <h3>O que é trabalho decente?</h3>
+            <p>Pode ser definido como "trabalho remunerado, exercido em condições de liberdade, equidade e segurança, capaz de garantir uma vida digna". O trabalho decente é considerado fundamental para a superação da pobreza, redução das desigualdades sociais, garantia da governabilidade democrática e desenvolvimento sustentável.</p>
+          </div>
         </div>
-        <nav class="header__nav">
-            <ul>
-                <li><a href="diminuicaodapobreza.html">Visite</a></li>
-                <li><a href="diminuicaodapobreza.html" class="header__nav--active">Descubra</a></li>
-                <li><a href="diminuicaodapobreza.html">Explore</a></li>
-                <li><a href="diminuicaodapobreza.html">Acontece</a></li>
-            </ul>
+      </section>
+
+      <section class="menu-section">
+        <div class="menu-item">
+          <img src="./img/ods9.png" alt="Ícone ODS 9" loading="lazy" />
+          <div class="menu-text">
+            <h3>A importância do emprego para a economia</h3>
+            <p>A economia estuda a produção, distribuição e o consumo de bens e serviços. Quando ela é afetada negativamente, há impacto direto na classe empresarial: a geração de riqueza só é possível através do consumo, e o consumo sem emprego fica totalmente inviável.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section">
+        <div class="menu-item">
+          <img src="./img/ods10.png" alt="Ícone ODS 10" loading="lazy" />
+          <div class="menu-text">
+            <h3>Qual a importância do emprego?</h3>
+            <p>Quanto mais gente empregada, mais o consumo aumenta. A economia é como uma grande roda gigante que só funciona quando todos os agentes estão bem. Mais gente trabalhando é mais dinheiro circulando e gerando renda para o cidadão.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="body-section1">
+        <div class="body-inf">
+          <h2>Trabalho e diminuição da pobreza</h2>
+          <p>Promover políticas orientadas para o desenvolvimento que apoiem as atividades produtivas, geração de emprego decente, empreendedorismo, criatividade e inovação, e incentivar a formalização e o crescimento das micro, pequenas e médias empresas.</p>
+          <a href="diminuicaodapobreza.html" class="btn-saiba">Saiba mais</a>
+          <div class="img-center">
+            <img src="./img/ods12.png" alt="ODS 12 — Consumo e Produção Responsáveis" width="300" height="300" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="body-section1">
+        <div class="body-inf">
+          <h2>Crescimento econômico</h2>
+          <p>A revitalização econômica contribui para criar melhores condições para a estabilidade e a sustentabilidade do país. É possível promover políticas que incentivem o empreendedorismo e a criação de empregos de forma sustentável e inclusiva.</p>
+          <p>No longo prazo, a desigualdade de renda e de oportunidades prejudica o crescimento econômico. Os mais vulneráveis têm menores expectativas de vida e dificuldades de se libertarem de um círculo vicioso de insucesso escolar e baixas qualificações.</p>
+          <a href="diminuicaodapobreza.html" class="btn-saiba">Saiba mais</a>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/FAsm0udROHw"
+              title="Vídeo sobre Crescimento Econômico"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="body-section1">
+        <div class="body-inf">
+          <h2>O desemprego e sua influência na desigualdade social</h2>
+          <p>Promover políticas que apoiem as atividades produtivas, geração de emprego decente, empreendedorismo, criatividade e inovação, e incentivar a formalização e o crescimento das micro, pequenas e médias empresas.</p>
+          <a href="diminuicaodapobreza.html" class="btn-saiba">Saiba mais</a>
+          <div class="img-group">
+            <img src="./img/ods24.png" width="300" height="300" alt="ODS — Desigualdade 1" loading="lazy" />
+            <img src="./img/ods22.png" width="300" height="300" alt="ODS — Desigualdade 2" loading="lazy" />
+            <img src="./img/ods23.png" width="300" height="300" alt="ODS — Desigualdade 3" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bottomblue" id="rodape" aria-label="Rodapé">
+    <div class="footer">
+      <div class="rodape-div">
+
+        <div id="sobretext">
+          <h2 class="centro">Sobre a autora</h2>
+          <p class="centro">por Eliane Ramos Barbosa</p>
+          <p class="autortext">Site criado para o desenvolvimento de aprendizado em HTML e CSS e aprimoramento das formas de tecnologia disponíveis.</p>
+        </div>
+
+        <h3 class="centro">Como me encontrar</h3>
+
+        <nav class="redes-sociais" aria-label="Redes sociais">
+          <a href="https://www.twitter.com/elianeli25"               target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+          </a>
+          <a href="https://www.facebook.com/eliane.ramos.148"         target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+          </a>
+          <a href="https://www.instagram.com/elianeli25"              target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+          </a>
+          <a href="https://www.linkedin.com/in/elianeramosbarbosa-erb" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+          </a>
+          <a href="https://wa.me/5511997732399"                       target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-whatsapp fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+          </a>
         </nav>
-    </header>
 
-    <main>
-        <h1 class="main-title">Crescimento econômico através do trabalho sustentável</h1>
+        <div class="creditos">
+          <h3>Créditos</h3>
+          <div id="link">
+            <a href="https://observavix.vitoria.es.gov.br/objetivo/8" target="_blank" rel="noopener noreferrer">Observa Vix</a>
+            <a href="https://www.ipea.gov.br/ods/"                    target="_blank" rel="noopener noreferrer">IPEA</a>
+            <a href="https://www.ufmg.br/espacodoconhecimento/"        target="_blank" rel="noopener noreferrer">UFMG</a>
+            <a href="https://pixabay.com/pt/"                         target="_blank" rel="noopener noreferrer">Pixabay</a>
+            <a href="https://www.pexels.com/pt-br/"                   target="_blank" rel="noopener noreferrer">Pexels</a>
+          </div>
 
-        <section class="browser">
-            <div class="browser-inf">
-                <h2 class="browser-inf__title">Emprego</h2>
-                <p><span class="browser-inf__text">Trabalho </span> decente</p>
-                <ul class="browser-inf__stitches">
-                    <li>Igualdade de tratamento entre homens e mulheres</li>
-                    <li>Combate a todas as formas de discriminação</li>
-                </ul>
-                <a href="diminuicaodapobreza.html" class="browser-inf__cta">Saiba mais</a>
-            </div>
-            
-            <div class="browser-inf">
-                <h2 class="browser-inf__title">Crescimento</h2>
-                <p><span class="browser-inf__text">Crescimento </span> econômico</p>
-                <ul class="browser-inf__stitches">
-                    <li>Melhores condições para estabilidade e sustentabilidade do país</li>
-                    <li>Políticas que incentivem o empreendedorismo e a criação de empresas de forma sustentável</li>
-                </ul>
-                <a href="diminuicaodapobreza.html" class="browser-inf__cta">Saiba mais</a>
-            </div>
-        </section>
+          <nav class="redes-sociais" aria-label="Links de crédito">
+            <a href="https://github.com/elianerbarbosa" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+            </a>
+            <a href="https://fontawesome.com/v4/icons/" target="_blank" rel="noopener noreferrer" aria-label="Font Awesome">
+              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-flag fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i><i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i></span>
+            </a>
+          </nav>
 
-        <div class="menu-container">
-            <section class="menu-section">
-                <div class="menu-item">
-                    <img src="./img/ods6.png" alt="ODS 6">
-                    <div class="menu-text">
-                        <h3>O que é trabalho decente?</h3>
-                        <h4>Pode ser definido como "trabalho remunerado, exercido em condições de liberdade, equidade e segurança, capaz de garantir uma vida digna". Assim, o trabalho decente é considerado fundamental para a superação da pobreza, redução das desigualdades sociais, garantia da governabilidade democrática e desenvolvimento sustentável.</h4>
-                    </div>
-                </div>
-            </section>
-
-            <section class="menu-section">
-                <div class="menu-item">
-                    <img src="./img/ods9.png" alt="ODS 9">
-                    <div class="menu-text">
-                        <h3>A importância do emprego para a economia</h3>
-                        <p>Sendo a economia, uma ciência que estuda a produção, distribuição e o consumo de bens e serviços, entendemos que, quando ela é afetada de maneira negativa, há um impacto direto no funcionamento de toda a classe empresarial, em outras palavras: a geração de riqueza só é possível através do consumo e o consumo sem emprego fica totalmente inviável.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="menu-section">
-                <div class="menu-item">
-                    <img src="./img/ods10.png" alt="ODS 10">
-                    <div class="menu-text">
-                        <h3>Qual a importância do emprego?</h3>
-                        <p>Quanto mais gente empregada, mais o consumo aumenta. Tudo isso para exemplificar que a economia é como uma grande roda gigante que só funciona corretamente quando todos os agentes estão indo bem! Mais gente trabalhando é mais dinheiro circulando e gerando renda para o cidadão!</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="body-section1">
-                <div class="body-title">
-                    <div class="body-inf">
-                        <h2>Trabalho e diminuição da pobreza</h2>
-                        <p>Promover políticas orientadas para o desenvolvimento que apoiem as atividades produtivas, geração de emprego decente, empreendedorismo, criatividade e inovação, e incentivar a formalização e o crescimento das micro, pequenas e médias empresas, inclusive por meio do acesso a serviços financeiros.</p>
-                        <a href="diminuicaodapobreza.html"> Saiba mais</a>
-                        <br><br>
-                        <img src="./img/ods12.png" alt="ODS 12" width="300" height="300">
-                    </div>
-                </div>
-            </section>
-
-            <section class="body-section1">
-                <div class="body-title">
-                    <div class="body-inf">
-                        <h2>Crescimento econômico</h2>
-                        <p>A revitalização econômica contribui para criar melhores condições para a estabilidade e a sustentabilidade do país. É possível promover políticas que incentivem o empreendedorismo e a criação de empregos de forma sustentável e inclusiva.</p>
-                        <p>No longo prazo, a desigualdade de renda e de oportunidades prejudica o crescimento econômico e o alcance do desenvolvimento sustentável. Os mais vulneráveis, muitas vezes, têm menores expectativas de vida e apresentam dificuldades de se libertarem de um círculo vicioso de insucesso escolar, baixas qualificações e poucas perspectivas de empregos de qualidade.</p>
-                        <a href="diminuicaodapobreza.html"> Saiba mais</a>
-                        <br><br>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FAsm0udROHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </section>
-
-            <section class="body-section1">
-                <div class="body-title">
-                    <div class="body-inf">
-                        <h2>O desemprego e sua influência na desigualdade social</h2>
-                        <p>Promover políticas orientadas para o desenvolvimento que apoiem as atividades produtivas, geração de emprego decente, empreendedorismo, criatividade e inovação, e incentivar a formalização e o crescimento das micro, pequenas e médias empresas, inclusive por meio do acesso a serviços financeiros.</p>
-                        <a href="diminuicaodapobreza.html"> Saiba mais</a>
-                        <br><br>
-                        <img src="./img/ods24.png" width="300" height="300" alt="ODS 24">
-                        <img src="./img/ods22.png" width="300" height="300" alt="ODS 22">
-                        <img src="./img/ods23.png" width="300" height="300" alt="ODS 23">
-                    </div>
-                </div>
-            </section>
+          <div class="parceiros" aria-label="Parceiros">
+            <a href="https://www.linkedin.com/in/julianaribeirof"                            target="_blank" rel="noopener noreferrer" aria-label="Juliana Ribeiro">
+              <img src="./img/jullyc.png"      alt="Juliana Ribeiro"  height="85" width="85" loading="lazy" />
+            </a>
+            <a href="https://www.jabrasil.org.br"                                            target="_blank" rel="noopener noreferrer" aria-label="JA Brasil">
+              <img src="./img/jjabasil.png"    alt="JA Brasil"        height="85" width="85" loading="lazy" />
+            </a>
+            <a href="https://www.grupoccr.com.br/instituto-ccr/projeto-elas-na-tech"         target="_blank" rel="noopener noreferrer" aria-label="Elas na Tech">
+              <img src="./img/elasnatecc.png"  alt="Elas na Tech"     height="85" width="85" loading="lazy" />
+            </a>
+            <a href="https://www.w3schools.com"                                              target="_blank" rel="noopener noreferrer" aria-label="W3Schools">
+              <img src="./img/w3sc.png"        alt="W3Schools"        height="85" width="85" loading="lazy" />
+            </a>
+          </div>
         </div>
-    </main>
+      </div>
 
-    <footer id="rodapé" class="bottomblue">
-        <div class="footer">
-            <div class="rodapé-div">
-                <div id="sobretext">
-                    <h1 class="centro">Sobre o autor</h1>
-                    <p class="centro">por Eliane Ramos Barbosa</p>
-                    <p class="autortext">Site criado para o desenvolvimento de aprendizado em html e css e aprimoramento das formas de tecnologia que estão disponíveis para ser desfrutadas.</p>
-                </div>
-                
-                <h3 class="centro">Como me encontrar</h3>
-                
-                <div class="redes-sociais">
-                    <ul class="rodape">
-                        <li>
-                            <a href="https://www.twitter.com/elianeli25" aria-label="Twitter">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                            <a href="https://www.facebook.com/eliane.ramos.148" aria-label="Facebook">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                            <a href="https://www.instagram.com/elianeli25" aria-label="Instagram">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/elianeramosbarbosa-erb" aria-label="LinkedIn">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                            <a href="https://wa.me/5511997732399" aria-label="WhatsApp">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+      <div class="copyr">
+        <p class="copy">Copyright &copy; <span id="ano"></span> Eliane Ramos Barbosa</p>
+      </div>
+    </div>
+  </footer>
 
-                <div class="creditos">
-                    <h3>Créditos</h3>
-                    <div id="link">
-                        <a href="https://observavix.vitoria.es.gov.br/objetivo/8" target="_blank">Observa vix</a>
-                        <a href="https://www.ipea.gov.br/ods/" target="_blank">IPEA</a>
-                        <a href="https://www.ufmg.br/espacodoconhecimento/" target="_blank">UFMG</a>
-                        <a href="https://pixabay.com/pt/" target="_blank">Pixabay</a>
-                        <a href="https://www.pexels.com/pt-br/" target="_blank">Pexels</a>
-                    </div>
-
-                    <div class="redes-sociais">
-                        <a href="https://github.com/ELIANERB/portifolio.elianerbarbosa" aria-label="GitHub">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                        <a href="https://fontawesome.com/v4/icons/" aria-label="Font Awesome">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-font-awesome fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=B4FU3NFRTDw" aria-label="YouTube">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                        <a href="https://g.co/kgs/irWyEv" aria-label="Google">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                                <i class="fa fa-google fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </div>
-
-                    <div class="parceiros">
-                        <a href="https://www.linkedin.com/in/julianaribeirof">
-                            <img src="./img/jullyc.png" alt="Jully" height="85" width="85">
-                        </a>
-                        <a href="https://www.jabrasil.org.br">
-                            <img src="./img/jjabasil.png" alt="Ja Brasil" height="85" width="85">
-                        </a>
-                        <a href="https://www.grupoccr.com.br/instituto-ccr/projeto-elas-na-tech">
-                            <img src="./img/elasnatecc.png" alt="Elas na Tech" height="85" width="85">
-                        </a>
-                        <a href="https://www.w3schools.com">
-                            <img src="./img/w3sc.png" alt="W3Schools" height="85" width="85">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="copyr">
-                <p class="copy">Copyright © Eliane Ramos</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="traducao.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
